@@ -26,3 +26,4 @@ const std::vector<Point2<double>> &ExampleFunction::Backward()
     grad_[0].y = 2. * input_[0].x + 4. * input_[0].y;
     return grad_;
 }
+//hey
